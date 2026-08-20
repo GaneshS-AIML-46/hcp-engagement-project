@@ -1,0 +1,501 @@
+hcp_id,first_name,last_name,specialty,segment,territory,city,state,practice_type,account_tenure,opt_out_flag,channel_preference
+1,Danielle,Johnson,endocrinology,medium_value,TERR_19,Nashville,TN,hospital,0.5,False,Digital-Heavy
+2,Joshua,Walker,cardiology,low_value,TERR_40,Detroit,MI,private_practice,3.3,False,In-Person-Heavy
+3,Jill,Rhodes,cardiology,medium_value,TERR_21,Tucson,AZ,private_practice,0.8,False,Mixed
+4,Patricia,Miller,endocrinology,high_value,TERR_25,Arlington,TX,clinic,5.6,False,Digital-Heavy
+5,Robert,Johnson,cardiology,low_value,TERR_47,Oakland,CA,hospital,2.7,False,Mixed
+6,Jeffery,Wagner,endocrinology,low_value,TERR_07,Boston,MA,clinic,1.7,False,Digital-Heavy
+7,Anthony,Gonzalez,primary_care,high_value,TERR_20,Memphis,TN,private_practice,0.7,False,Mixed
+8,Debra,Gardner,endocrinology,high_value,TERR_47,Sacramento,CA,private_practice,2.4,False,Mixed
+9,Jeffrey,Lawrence,primary_care,high_value,TERR_42,Houston,TX,private_practice,3.1,False,Digital-Heavy
+10,Lisa,Smith,dermatology,low_value,TERR_34,San Jose,CA,hospital,0.5,False,In-Person-Heavy
+11,Linda,Wolfe,endocrinology,low_value,TERR_16,Minneapolis,MN,clinic,1.1,True,Digital-Heavy
+12,Matthew,Moore,oncology,medium_value,TERR_25,Minneapolis,MN,cancer_center,2.3,False,Mixed
+13,Susan,Rogers,primary_care,high_value,TERR_01,Oakland,CA,private_practice,4.4,False,In-Person-Heavy
+14,Christopher,Davis,cardiology,low_value,TERR_35,Tucson,AZ,private_practice,1.0,False,In-Person-Heavy
+15,Melanie,Munoz,cardiology,low_value,TERR_48,Nashville,TN,private_practice,0.5,False,Digital-Heavy
+16,Lindsay,Blair,dermatology,high_value,TERR_27,Sacramento,CA,clinic,4.4,False,Digital-Heavy
+17,Amanda,Dudley,primary_care,medium_value,TERR_14,Colorado Springs,CO,private_practice,1.6,False,Digital-Heavy
+18,Nicholas,Arnold,cardiology,medium_value,TERR_42,Fort Worth,TX,hospital,3.9,False,Digital-Heavy
+19,Maria,Montgomery,cardiology,low_value,TERR_30,Mesa,AZ,private_practice,2.9,False,In-Person-Heavy
+20,Michelle,Ray,dermatology,medium_value,TERR_13,Albuquerque,NM,clinic,0.5,True,Mixed
+21,Janet,Williams,cardiology,medium_value,TERR_06,Memphis,TN,hospital,0.5,False,In-Person-Heavy
+22,Jeremy,Roberts,endocrinology,medium_value,TERR_11,Memphis,TN,private_practice,4.1,False,In-Person-Heavy
+23,Christopher,Hall,primary_care,medium_value,TERR_13,Raleigh,NC,private_practice,3.7,False,Mixed
+24,Craig,Ramirez,cardiology,low_value,TERR_09,Mesa,AZ,private_practice,0.6,False,Mixed
+25,Cynthia,Diaz,primary_care,medium_value,TERR_32,Detroit,MI,private_practice,2.6,False,Mixed
+26,Mitchell,Clark,primary_care,medium_value,TERR_12,Colorado Springs,CO,private_practice,5.3,False,In-Person-Heavy
+27,Joseph,Zuniga,oncology,medium_value,TERR_23,Mesa,AZ,cancer_center,4.4,False,Digital-Heavy
+28,Deborah,Lynch,primary_care,low_value,TERR_44,Portland,OR,clinic,3.3,False,Digital-Heavy
+29,George,Daniel,endocrinology,low_value,TERR_05,Fresno,CA,private_practice,3.9,True,Mixed
+30,Frank,Gray,cardiology,medium_value,TERR_09,Philadelphia,PA,clinic,0.7,False,Digital-Heavy
+31,Veronica,Bowman,dermatology,medium_value,TERR_19,Washington,DC,hospital,3.9,False,Digital-Heavy
+32,Angela,Cohen,endocrinology,medium_value,TERR_39,Seattle,WA,hospital,1.4,False,In-Person-Heavy
+33,Megan,Parsons,primary_care,medium_value,TERR_42,Sacramento,CA,clinic,1.4,False,In-Person-Heavy
+34,Jeremy,Johnson,endocrinology,medium_value,TERR_49,Los Angeles,CA,private_practice,0.5,False,In-Person-Heavy
+35,Leslie,Adams,primary_care,high_value,TERR_09,Raleigh,NC,private_practice,1.4,False,Digital-Heavy
+36,Jason,Hahn,cardiology,low_value,TERR_20,Detroit,MI,hospital,1.8,False,Digital-Heavy
+37,Nancy,Edwards,primary_care,medium_value,TERR_29,Seattle,WA,clinic,5.1,False,In-Person-Heavy
+38,Diana,Foster,oncology,low_value,TERR_41,Kansas City,MO,hospital,1.7,False,Mixed
+39,Robin,Ellis,primary_care,medium_value,TERR_08,San Antonio,TX,private_practice,2.1,False,Mixed
+40,Joseph,Wright,cardiology,medium_value,TERR_12,El Paso,TX,hospital,1.1,False,Mixed
+41,Anna,Baker,dermatology,low_value,TERR_33,Memphis,TN,private_practice,0.5,False,Mixed
+42,Brenda,Hurst,primary_care,high_value,TERR_19,Houston,TX,private_practice,0.5,False,In-Person-Heavy
+43,Reginald,Robinson,cardiology,medium_value,TERR_46,Philadelphia,PA,hospital,4.5,False,Digital-Heavy
+44,Whitney,Hicks,cardiology,low_value,TERR_29,Arlington,TX,hospital,1.4,True,In-Person-Heavy
+45,Christopher,Williams,dermatology,low_value,TERR_32,Nashville,TN,clinic,1.0,False,In-Person-Heavy
+46,Daniel,Burton,primary_care,low_value,TERR_25,Omaha,NE,private_practice,3.5,False,In-Person-Heavy
+47,Laura,Henderson,oncology,low_value,TERR_23,Los Angeles,CA,private_practice,5.8,False,In-Person-Heavy
+48,Bryan,James,cardiology,high_value,TERR_40,Tucson,AZ,private_practice,1.2,False,In-Person-Heavy
+49,Wendy,Rice,primary_care,medium_value,TERR_35,Cleveland,OH,clinic,4.2,False,Digital-Heavy
+50,Tasha,Valencia,primary_care,medium_value,TERR_07,Kansas City,MO,clinic,3.3,True,In-Person-Heavy
+51,Alexander,Le,dermatology,high_value,TERR_23,Charlotte,NC,private_practice,3.4,False,Digital-Heavy
+52,Erin,Herrera,endocrinology,medium_value,TERR_22,Oklahoma City,OK,clinic,2.6,False,Mixed
+53,Joseph,Davidson,oncology,low_value,TERR_42,Philadelphia,PA,cancer_center,2.2,False,Digital-Heavy
+54,Daniel,Graham,cardiology,medium_value,TERR_44,Oakland,CA,private_practice,2.9,False,Digital-Heavy
+55,Shawn,Mckay,dermatology,medium_value,TERR_35,Virginia Beach,VA,private_practice,0.9,False,In-Person-Heavy
+56,Nancy,Baker,endocrinology,high_value,TERR_42,Baltimore,MD,private_practice,0.5,False,In-Person-Heavy
+57,Vincent,White,cardiology,low_value,TERR_37,Portland,OR,hospital,1.6,True,In-Person-Heavy
+58,Rita,Harrell,dermatology,high_value,TERR_12,New York,NY,private_practice,2.6,False,Digital-Heavy
+59,Kenneth,Fowler,oncology,low_value,TERR_25,Virginia Beach,VA,private_practice,2.3,True,In-Person-Heavy
+60,Chelsea,Hernandez,dermatology,medium_value,TERR_39,Phoenix,AZ,private_practice,1.0,False,Digital-Heavy
+61,Kathryn,Ryan,dermatology,medium_value,TERR_29,Columbus,OH,private_practice,4.7,False,Mixed
+62,Kimberly,Moreno,endocrinology,medium_value,TERR_46,Phoenix,AZ,private_practice,3.1,True,Mixed
+63,Aaron,Nguyen,endocrinology,low_value,TERR_30,Mesa,AZ,private_practice,0.8,False,In-Person-Heavy
+64,Andrew,Hickman,oncology,medium_value,TERR_34,Milwaukee,WI,cancer_center,4.4,False,Digital-Heavy
+65,Natasha,Decker,oncology,medium_value,TERR_04,San Francisco,CA,cancer_center,3.4,False,Mixed
+66,Kyle,Brown,oncology,high_value,TERR_27,Washington,DC,hospital,4.2,False,Digital-Heavy
+67,Natalie,Arroyo,endocrinology,low_value,TERR_37,Jacksonville,FL,private_practice,6.0,False,In-Person-Heavy
+68,Christopher,Tucker,cardiology,high_value,TERR_43,Oakland,CA,clinic,0.5,False,Digital-Heavy
+69,Chad,Hodges,dermatology,medium_value,TERR_08,Louisville,KY,private_practice,3.5,False,Mixed
+70,Katie,Anderson,oncology,low_value,TERR_41,San Antonio,TX,cancer_center,3.1,False,Digital-Heavy
+71,Thomas,Pierce,endocrinology,low_value,TERR_36,San Jose,CA,clinic,3.5,False,In-Person-Heavy
+72,Joseph,Brennan,dermatology,high_value,TERR_49,Sacramento,CA,clinic,1.1,False,Mixed
+73,Rodney,Lewis,endocrinology,low_value,TERR_37,Jacksonville,FL,private_practice,1.6,False,In-Person-Heavy
+74,Amber,Blair,primary_care,low_value,TERR_35,Raleigh,NC,clinic,1.0,False,Digital-Heavy
+75,James,Collins,primary_care,medium_value,TERR_19,Arlington,TX,private_practice,0.5,False,Mixed
+76,Wanda,Santos,endocrinology,high_value,TERR_12,Dallas,TX,private_practice,0.5,False,In-Person-Heavy
+77,Samuel,Holmes,endocrinology,low_value,TERR_05,Sacramento,CA,hospital,2.7,False,In-Person-Heavy
+78,David,Walker,endocrinology,low_value,TERR_36,Nashville,TN,private_practice,4.4,False,Digital-Heavy
+79,Matthew,Chapman,primary_care,medium_value,TERR_47,Jacksonville,FL,private_practice,2.7,False,In-Person-Heavy
+80,Jerry,Robinson,primary_care,high_value,TERR_38,San Antonio,TX,clinic,3.4,False,In-Person-Heavy
+81,Chad,Welch,dermatology,high_value,TERR_08,New Orleans,LA,private_practice,0.5,False,Digital-Heavy
+82,Jeremy,Whitehead,dermatology,low_value,TERR_07,Oklahoma City,OK,private_practice,1.3,True,Digital-Heavy
+83,Michele,Jones,dermatology,high_value,TERR_26,Denver,CO,clinic,0.5,False,Mixed
+84,John,Caldwell,cardiology,high_value,TERR_20,Memphis,TN,private_practice,5.2,False,Digital-Heavy
+85,Jason,Anderson,dermatology,low_value,TERR_49,Oklahoma City,OK,hospital,0.5,False,Digital-Heavy
+86,Selena,Duncan,primary_care,high_value,TERR_44,Minneapolis,MN,private_practice,1.8,False,In-Person-Heavy
+87,Thomas,Mueller,dermatology,medium_value,TERR_37,Kansas City,MO,private_practice,1.4,False,Mixed
+88,Lindsey,Lee,cardiology,low_value,TERR_47,Raleigh,NC,hospital,4.5,False,Digital-Heavy
+89,Collin,Jordan,primary_care,low_value,TERR_16,Nashville,TN,clinic,4.6,True,In-Person-Heavy
+90,Rodney,Owens,primary_care,low_value,TERR_16,San Diego,CA,hospital,2.7,True,Digital-Heavy
+91,Jessica,Nunez,endocrinology,high_value,TERR_08,Cleveland,OH,private_practice,3.5,False,Digital-Heavy
+92,Tracey,Garcia,endocrinology,low_value,TERR_27,Indianapolis,IN,private_practice,0.5,False,Digital-Heavy
+93,Richard,Morgan,primary_care,medium_value,TERR_46,Sacramento,CA,private_practice,0.5,False,Mixed
+94,Michelle,Wright,dermatology,medium_value,TERR_05,Wichita,KS,hospital,3.5,False,Digital-Heavy
+95,James,West,primary_care,low_value,TERR_01,Seattle,WA,private_practice,1.1,False,Digital-Heavy
+96,Robert,Ramirez,primary_care,low_value,TERR_25,El Paso,TX,private_practice,1.0,False,In-Person-Heavy
+97,John,Leblanc,cardiology,medium_value,TERR_01,Boston,MA,clinic,0.5,False,Mixed
+98,Scott,Callahan,endocrinology,medium_value,TERR_38,Chicago,IL,hospital,0.5,False,Digital-Heavy
+99,Andrea,Williams,dermatology,medium_value,TERR_21,Columbus,OH,clinic,0.7,False,In-Person-Heavy
+100,Yvette,Huff,primary_care,low_value,TERR_13,Houston,TX,private_practice,2.3,True,Digital-Heavy
+101,Tanya,House,primary_care,low_value,TERR_26,Fresno,CA,clinic,1.6,True,In-Person-Heavy
+102,Melinda,Martin,cardiology,low_value,TERR_44,Phoenix,AZ,hospital,1.0,True,In-Person-Heavy
+103,Todd,Lewis,cardiology,medium_value,TERR_39,Atlanta,GA,private_practice,7.5,False,In-Person-Heavy
+104,Richard,Brown,endocrinology,low_value,TERR_18,Baltimore,MD,hospital,4.1,False,Digital-Heavy
+105,Nicholas,Galloway,cardiology,low_value,TERR_15,Baltimore,MD,private_practice,0.5,False,Digital-Heavy
+106,Joseph,Bowers,oncology,high_value,TERR_04,San Jose,CA,private_practice,2.8,False,Digital-Heavy
+107,Spencer,Henderson,primary_care,high_value,TERR_02,Fort Worth,TX,private_practice,3.4,False,Digital-Heavy
+108,Susan,Cowan,cardiology,high_value,TERR_47,Nashville,TN,hospital,2.8,False,Digital-Heavy
+109,Angela,Higgins,cardiology,medium_value,TERR_03,Albuquerque,NM,private_practice,2.0,False,Mixed
+110,Eric,Phillips,cardiology,low_value,TERR_19,Boston,MA,hospital,0.5,False,Mixed
+111,Tanya,Riley,dermatology,medium_value,TERR_05,Raleigh,NC,private_practice,2.9,True,Mixed
+112,Amy,Adkins,endocrinology,high_value,TERR_14,Portland,OR,private_practice,2.1,False,Mixed
+113,Brian,Silva,dermatology,high_value,TERR_30,Miami,FL,private_practice,8.4,False,In-Person-Heavy
+114,Wesley,Farrell,dermatology,high_value,TERR_08,Arlington,TX,private_practice,1.0,False,Mixed
+115,Eric,Yu,cardiology,medium_value,TERR_26,Memphis,TN,private_practice,2.4,False,Digital-Heavy
+116,Christopher,Lopez,oncology,high_value,TERR_07,Chicago,IL,cancer_center,0.5,False,In-Person-Heavy
+117,Brooke,Leonard,cardiology,medium_value,TERR_15,Oklahoma City,OK,hospital,7.5,False,In-Person-Heavy
+118,Joe,Wilson,dermatology,low_value,TERR_17,Colorado Springs,CO,private_practice,0.5,False,In-Person-Heavy
+119,Pamela,Sanchez,oncology,medium_value,TERR_10,Chicago,IL,cancer_center,2.3,False,Mixed
+120,Brooke,Harvey,primary_care,high_value,TERR_47,El Paso,TX,private_practice,0.5,False,Digital-Heavy
+121,Robert,Silva,oncology,high_value,TERR_37,Philadelphia,PA,cancer_center,0.5,False,Digital-Heavy
+122,Alexandra,Donovan,endocrinology,medium_value,TERR_45,Philadelphia,PA,clinic,4.4,False,Mixed
+123,James,Moran,dermatology,high_value,TERR_48,Houston,TX,hospital,3.3,False,Digital-Heavy
+124,John,Foster,cardiology,medium_value,TERR_24,Dallas,TX,private_practice,0.5,False,In-Person-Heavy
+125,Emily,Evans,cardiology,high_value,TERR_04,Charlotte,NC,hospital,3.4,False,Mixed
+126,Leslie,Walton,primary_care,high_value,TERR_02,Charlotte,NC,private_practice,1.1,False,In-Person-Heavy
+127,Charles,Ellis,cardiology,low_value,TERR_04,Denver,CO,hospital,1.8,False,In-Person-Heavy
+128,Yolanda,Ferrell,endocrinology,low_value,TERR_47,New York,NY,clinic,3.7,False,Digital-Heavy
+129,Charles,Lewis,oncology,high_value,TERR_13,Miami,FL,cancer_center,6.0,False,Digital-Heavy
+130,Joseph,Mahoney,cardiology,medium_value,TERR_10,Phoenix,AZ,private_practice,2.8,False,Mixed
+131,Nicole,Suarez,oncology,low_value,TERR_37,Dallas,TX,private_practice,1.9,True,In-Person-Heavy
+132,Mike,Moore,primary_care,high_value,TERR_38,Sacramento,CA,private_practice,3.9,False,In-Person-Heavy
+133,Martha,Warner,primary_care,low_value,TERR_11,Dallas,TX,clinic,1.7,True,Digital-Heavy
+134,Cheryl,Archer,oncology,medium_value,TERR_40,El Paso,TX,hospital,4.2,False,Digital-Heavy
+135,Destiny,Smith,endocrinology,high_value,TERR_30,Sacramento,CA,hospital,3.3,False,Mixed
+136,Lisa,Evans,dermatology,high_value,TERR_14,Portland,OR,private_practice,3.7,False,Digital-Heavy
+137,Elizabeth,Mcmillan,endocrinology,low_value,TERR_40,Columbus,OH,private_practice,2.0,False,In-Person-Heavy
+138,Dennis,Wilson,cardiology,medium_value,TERR_15,Tucson,AZ,hospital,5.7,False,Digital-Heavy
+139,Daniel,Tran,primary_care,high_value,TERR_40,Colorado Springs,CO,private_practice,1.7,False,In-Person-Heavy
+140,Joseph,Jacobs,cardiology,low_value,TERR_08,Omaha,NE,private_practice,2.9,True,Mixed
+141,Jennifer,Harris,endocrinology,medium_value,TERR_36,Louisville,KY,clinic,4.2,False,In-Person-Heavy
+142,Cynthia,Baker,primary_care,high_value,TERR_33,Houston,TX,private_practice,2.9,False,Digital-Heavy
+143,Tracy,Whitehead,oncology,low_value,TERR_31,Wichita,KS,cancer_center,2.0,False,In-Person-Heavy
+144,Meghan,Davis,endocrinology,medium_value,TERR_15,Louisville,KY,private_practice,2.0,False,Mixed
+145,Rodney,Hill,dermatology,medium_value,TERR_26,Miami,FL,private_practice,4.8,False,In-Person-Heavy
+146,Adam,Wise,cardiology,high_value,TERR_10,Virginia Beach,VA,private_practice,8.5,False,Mixed
+147,Dana,Green,oncology,medium_value,TERR_25,Tucson,AZ,private_practice,4.9,False,In-Person-Heavy
+148,Joyce,Arnold,endocrinology,medium_value,TERR_48,Houston,TX,clinic,9.8,False,Mixed
+149,Ronald,Smith,dermatology,medium_value,TERR_09,Louisville,KY,hospital,1.4,False,In-Person-Heavy
+150,Charles,Ware,primary_care,medium_value,TERR_46,Mesa,AZ,hospital,1.1,False,Digital-Heavy
+151,Rebecca,Gardner,dermatology,medium_value,TERR_40,Charlotte,NC,private_practice,3.6,False,Digital-Heavy
+152,Mary,Aguilar,dermatology,high_value,TERR_10,Portland,OR,private_practice,2.0,False,Digital-Heavy
+153,Earl,Anderson,primary_care,high_value,TERR_27,Indianapolis,IN,private_practice,0.5,False,Mixed
+154,Kyle,Nolan,cardiology,high_value,TERR_24,Oklahoma City,OK,private_practice,0.5,False,Mixed
+155,Laura,Valencia,endocrinology,low_value,TERR_22,Portland,OR,private_practice,2.1,False,In-Person-Heavy
+156,Rachel,Clark,endocrinology,low_value,TERR_17,Washington,DC,private_practice,0.5,False,Digital-Heavy
+157,John,Garcia,primary_care,low_value,TERR_13,Baltimore,MD,private_practice,6.7,False,Digital-Heavy
+158,Kimberly,Henson,cardiology,medium_value,TERR_32,Baltimore,MD,private_practice,1.2,False,Mixed
+159,Richard,Oliver,dermatology,low_value,TERR_01,Columbus,OH,clinic,3.3,False,In-Person-Heavy
+160,Eric,Spears,cardiology,high_value,TERR_28,Arlington,TX,private_practice,4.5,False,Digital-Heavy
+161,Michelle,Cherry,oncology,low_value,TERR_39,Chicago,IL,hospital,1.0,False,In-Person-Heavy
+162,Lisa,Keith,oncology,medium_value,TERR_33,Nashville,TN,hospital,1.7,False,Digital-Heavy
+163,Angel,Doyle,endocrinology,high_value,TERR_03,Detroit,MI,hospital,2.2,False,Digital-Heavy
+164,Martin,Galvan,cardiology,low_value,TERR_47,Mesa,AZ,hospital,0.5,True,In-Person-Heavy
+165,Leah,Shields,cardiology,medium_value,TERR_24,Columbus,OH,clinic,4.1,False,Digital-Heavy
+166,Lisa,Adams,cardiology,high_value,TERR_21,Columbus,OH,clinic,1.7,False,Mixed
+167,Kristin,Rodriguez,oncology,high_value,TERR_18,Los Angeles,CA,hospital,5.2,False,Digital-Heavy
+168,Monica,Garrison,primary_care,medium_value,TERR_42,Los Angeles,CA,clinic,0.9,False,Digital-Heavy
+169,Jeffrey,Velasquez,cardiology,low_value,TERR_30,Dallas,TX,hospital,0.9,False,Digital-Heavy
+170,Steven,Torres,oncology,low_value,TERR_22,Oakland,CA,private_practice,5.4,False,Mixed
+171,Laura,Perez,primary_care,high_value,TERR_17,Cleveland,OH,clinic,3.0,False,In-Person-Heavy
+172,Andrew,Lee,cardiology,high_value,TERR_02,Minneapolis,MN,hospital,1.3,False,In-Person-Heavy
+173,Mark,Lin,primary_care,medium_value,TERR_23,Mesa,AZ,private_practice,1.9,False,Digital-Heavy
+174,Tammy,Ramirez,cardiology,medium_value,TERR_42,Kansas City,MO,clinic,3.0,False,Digital-Heavy
+175,Darlene,Ross,primary_care,medium_value,TERR_23,Omaha,NE,private_practice,4.3,False,In-Person-Heavy
+176,Tina,Herrera,dermatology,high_value,TERR_27,Virginia Beach,VA,private_practice,3.5,False,Mixed
+177,Sheila,Wilson,oncology,low_value,TERR_46,Los Angeles,CA,cancer_center,0.5,True,Mixed
+178,Tara,White,endocrinology,high_value,TERR_36,Portland,OR,hospital,1.9,False,Digital-Heavy
+179,Sydney,Baker,dermatology,low_value,TERR_39,Virginia Beach,VA,private_practice,4.8,False,In-Person-Heavy
+180,Daniel,Hamilton,cardiology,high_value,TERR_24,El Paso,TX,clinic,1.5,False,Mixed
+181,Jessica,Edwards,dermatology,high_value,TERR_43,Indianapolis,IN,private_practice,1.0,False,Digital-Heavy
+182,Catherine,Dixon,cardiology,low_value,TERR_26,Los Angeles,CA,hospital,3.0,True,Mixed
+183,Paul,Ray,dermatology,low_value,TERR_40,Omaha,NE,private_practice,5.3,False,Digital-Heavy
+184,Jonathan,Fletcher,primary_care,high_value,TERR_37,Oakland,CA,private_practice,0.6,False,Mixed
+185,Aaron,Frost,endocrinology,medium_value,TERR_49,Indianapolis,IN,hospital,3.9,True,Mixed
+186,Amanda,Ball,oncology,high_value,TERR_12,San Francisco,CA,cancer_center,1.8,False,Mixed
+187,Judy,Lambert,cardiology,medium_value,TERR_06,San Diego,CA,hospital,2.2,False,In-Person-Heavy
+188,Michael,Jones,primary_care,medium_value,TERR_26,Raleigh,NC,hospital,4.4,True,Digital-Heavy
+189,Elizabeth,Rivera,dermatology,medium_value,TERR_07,Columbus,OH,clinic,2.0,False,Mixed
+190,Lee,Charles,dermatology,medium_value,TERR_08,Cleveland,OH,clinic,9.7,False,Digital-Heavy
+191,Jennifer,Evans,cardiology,high_value,TERR_18,Omaha,NE,clinic,2.8,False,Digital-Heavy
+192,Kyle,Ortiz,primary_care,high_value,TERR_44,Minneapolis,MN,clinic,2.8,False,Mixed
+193,Richard,Phillips,oncology,medium_value,TERR_39,Charlotte,NC,private_practice,0.5,False,Mixed
+194,David,Fisher,primary_care,medium_value,TERR_13,Seattle,WA,private_practice,0.9,False,Mixed
+195,Shelby,Byrd,primary_care,medium_value,TERR_32,Albuquerque,NM,clinic,2.9,True,Digital-Heavy
+196,Raven,Gilbert,cardiology,low_value,TERR_29,Arlington,TX,private_practice,6.6,False,Mixed
+197,Kevin,Kelley,dermatology,medium_value,TERR_10,Baltimore,MD,private_practice,0.5,False,Mixed
+198,Aaron,Mitchell,primary_care,medium_value,TERR_01,Baltimore,MD,private_practice,3.7,False,Digital-Heavy
+199,Russell,Carpenter,primary_care,high_value,TERR_37,Oklahoma City,OK,private_practice,1.3,False,Digital-Heavy
+200,Diana,Marshall,primary_care,medium_value,TERR_15,Arlington,TX,hospital,2.4,False,Digital-Heavy
+201,Scott,Lewis,primary_care,high_value,TERR_46,Detroit,MI,clinic,2.6,False,Digital-Heavy
+202,Thomas,Santana,cardiology,low_value,TERR_07,Houston,TX,clinic,0.5,False,Mixed
+203,Laura,Jackson,cardiology,high_value,TERR_46,San Jose,CA,private_practice,1.7,False,In-Person-Heavy
+204,Christopher,Robertson,cardiology,high_value,TERR_49,Chicago,IL,private_practice,2.0,False,Mixed
+205,Cynthia,Rogers,dermatology,low_value,TERR_17,Detroit,MI,private_practice,2.3,False,Mixed
+206,Loretta,Potter,cardiology,low_value,TERR_47,Oklahoma City,OK,clinic,1.9,False,Digital-Heavy
+207,Emily,Walker,primary_care,medium_value,TERR_28,Louisville,KY,clinic,0.5,False,Mixed
+208,James,Johnson,primary_care,low_value,TERR_42,Dallas,TX,private_practice,0.5,False,In-Person-Heavy
+209,John,Alvarez,primary_care,high_value,TERR_08,Phoenix,AZ,private_practice,1.0,False,Mixed
+210,Melissa,Jones,oncology,medium_value,TERR_48,Fort Worth,TX,cancer_center,0.5,False,Digital-Heavy
+211,Robert,Soto,endocrinology,low_value,TERR_29,Chicago,IL,private_practice,0.5,False,Mixed
+212,James,Horton,oncology,high_value,TERR_33,Philadelphia,PA,cancer_center,0.5,False,Digital-Heavy
+213,Troy,Sanchez,cardiology,high_value,TERR_13,Miami,FL,clinic,2.4,False,Digital-Heavy
+214,Diana,Smith,dermatology,medium_value,TERR_27,Atlanta,GA,clinic,2.4,True,Mixed
+215,Karen,Carrillo,endocrinology,medium_value,TERR_43,Baltimore,MD,private_practice,1.1,False,Digital-Heavy
+216,Daniel,Coleman,oncology,medium_value,TERR_29,Jacksonville,FL,private_practice,1.3,False,In-Person-Heavy
+217,Gregory,Rubio,oncology,medium_value,TERR_31,Fresno,CA,hospital,2.8,False,In-Person-Heavy
+218,April,Williams,endocrinology,medium_value,TERR_48,Philadelphia,PA,private_practice,1.3,False,Mixed
+219,John,Charles,cardiology,low_value,TERR_15,Baltimore,MD,hospital,2.7,False,Digital-Heavy
+220,Stephen,Solis,dermatology,high_value,TERR_32,Kansas City,MO,private_practice,1.4,False,Digital-Heavy
+221,Elizabeth,Travis,oncology,high_value,TERR_01,El Paso,TX,private_practice,6.0,False,Digital-Heavy
+222,Caitlin,Dodson,oncology,low_value,TERR_14,Wichita,KS,hospital,2.0,False,In-Person-Heavy
+223,Patricia,Salazar,dermatology,high_value,TERR_29,Austin,TX,private_practice,0.5,False,Digital-Heavy
+224,Jennifer,Wagner,primary_care,high_value,TERR_11,Nashville,TN,private_practice,4.9,False,Digital-Heavy
+225,Maria,Kelley,oncology,medium_value,TERR_29,Louisville,KY,hospital,2.9,False,Digital-Heavy
+226,Phyllis,Manning,cardiology,medium_value,TERR_14,Washington,DC,private_practice,6.8,False,Digital-Heavy
+227,Thomas,Green,cardiology,medium_value,TERR_21,Wichita,KS,private_practice,1.0,False,In-Person-Heavy
+228,John,Walsh,dermatology,high_value,TERR_05,Chicago,IL,clinic,1.1,False,Mixed
+229,Katie,Boyd,cardiology,low_value,TERR_49,Oklahoma City,OK,private_practice,0.6,False,Digital-Heavy
+230,Courtney,Hill,endocrinology,medium_value,TERR_27,San Diego,CA,clinic,1.8,False,In-Person-Heavy
+231,Chris,Mitchell,endocrinology,low_value,TERR_46,Cleveland,OH,private_practice,1.8,False,In-Person-Heavy
+232,Joseph,Flores,endocrinology,low_value,TERR_44,Detroit,MI,private_practice,1.8,False,In-Person-Heavy
+233,Amber,Taylor,endocrinology,high_value,TERR_20,Kansas City,MO,hospital,7.8,False,Mixed
+234,Jesse,Benson,primary_care,low_value,TERR_22,Los Angeles,CA,private_practice,5.1,False,In-Person-Heavy
+235,Jasmine,Brown,cardiology,high_value,TERR_18,Tulsa,OK,clinic,8.4,False,In-Person-Heavy
+236,Rick,Daniels,cardiology,high_value,TERR_38,Raleigh,NC,hospital,0.9,False,Digital-Heavy
+237,Robert,Clark,cardiology,low_value,TERR_22,Memphis,TN,private_practice,4.5,False,In-Person-Heavy
+238,Robert,Stein,endocrinology,high_value,TERR_50,Tucson,AZ,private_practice,0.5,False,In-Person-Heavy
+239,Brandy,Dominguez,oncology,low_value,TERR_38,Colorado Springs,CO,cancer_center,0.5,False,Digital-Heavy
+240,Melissa,Cannon,oncology,high_value,TERR_34,Omaha,NE,cancer_center,0.5,False,Digital-Heavy
+241,Omar,Smith,endocrinology,low_value,TERR_08,San Diego,CA,private_practice,5.5,True,Mixed
+242,Michael,Molina,oncology,low_value,TERR_47,San Antonio,TX,cancer_center,1.5,False,In-Person-Heavy
+243,Melissa,Ashley,cardiology,medium_value,TERR_03,Raleigh,NC,clinic,2.5,False,In-Person-Heavy
+244,Robert,Adkins,endocrinology,high_value,TERR_12,Nashville,TN,clinic,7.1,False,Mixed
+245,Amy,Morrison,endocrinology,medium_value,TERR_32,Oakland,CA,private_practice,0.5,False,Mixed
+246,Jeffrey,Robinson,oncology,low_value,TERR_37,Albuquerque,NM,hospital,2.0,False,In-Person-Heavy
+247,Ryan,Johnson,primary_care,medium_value,TERR_15,Tucson,AZ,private_practice,1.8,False,Mixed
+248,Matthew,Shelton,endocrinology,low_value,TERR_24,Washington,DC,private_practice,0.8,False,Mixed
+249,Richard,Martin,dermatology,high_value,TERR_36,Fresno,CA,private_practice,3.1,False,In-Person-Heavy
+250,Tanner,Anderson,endocrinology,medium_value,TERR_06,Colorado Springs,CO,hospital,2.0,False,In-Person-Heavy
+251,Cindy,Johnson,oncology,medium_value,TERR_18,Virginia Beach,VA,private_practice,0.9,True,Digital-Heavy
+252,Phillip,Elliott,dermatology,high_value,TERR_08,Kansas City,MO,clinic,1.4,False,Mixed
+253,Anthony,Day,oncology,medium_value,TERR_45,Raleigh,NC,hospital,1.5,False,In-Person-Heavy
+254,Derek,Murray,endocrinology,high_value,TERR_39,Oklahoma City,OK,private_practice,2.4,False,Digital-Heavy
+255,Brent,Gray,endocrinology,low_value,TERR_02,Sacramento,CA,clinic,5.2,False,Mixed
+256,Jason,Murphy,dermatology,medium_value,TERR_12,Kansas City,MO,private_practice,2.7,False,In-Person-Heavy
+257,Kathleen,Gray,dermatology,medium_value,TERR_16,San Jose,CA,private_practice,2.6,False,Digital-Heavy
+258,Karen,Decker,dermatology,low_value,TERR_01,Phoenix,AZ,private_practice,2.0,False,In-Person-Heavy
+259,Johnny,Miller,endocrinology,low_value,TERR_28,Miami,FL,clinic,0.6,False,In-Person-Heavy
+260,Andrew,Ryan,dermatology,high_value,TERR_49,Arlington,TX,private_practice,0.8,False,Mixed
+261,Zoe,Bell,endocrinology,low_value,TERR_20,Cleveland,OH,private_practice,2.5,False,Digital-Heavy
+262,Debra,Harrington,oncology,low_value,TERR_26,Louisville,KY,hospital,6.3,True,Mixed
+263,Denise,Webster,primary_care,low_value,TERR_49,Columbus,OH,private_practice,2.5,False,In-Person-Heavy
+264,Stefanie,Gonzalez,endocrinology,high_value,TERR_24,Miami,FL,private_practice,1.6,False,Digital-Heavy
+265,Andrew,Hernandez,oncology,medium_value,TERR_43,Cleveland,OH,hospital,0.5,False,Mixed
+266,David,Caldwell,endocrinology,low_value,TERR_45,San Francisco,CA,clinic,5.5,False,In-Person-Heavy
+267,Anne,Robinson,oncology,high_value,TERR_05,Wichita,KS,hospital,1.9,False,Digital-Heavy
+268,Holly,Wang,oncology,medium_value,TERR_43,San Jose,CA,cancer_center,2.7,False,In-Person-Heavy
+269,Gary,Lawson,oncology,medium_value,TERR_27,San Diego,CA,hospital,1.5,False,Mixed
+270,Julie,Wilson,primary_care,low_value,TERR_19,Milwaukee,WI,clinic,3.6,False,Digital-Heavy
+271,Lori,Oconnell,dermatology,medium_value,TERR_06,Dallas,TX,clinic,1.3,False,Digital-Heavy
+272,Daniel,Johnson,primary_care,low_value,TERR_09,Fort Worth,TX,private_practice,0.8,False,Digital-Heavy
+273,Larry,Byrd,primary_care,medium_value,TERR_13,Raleigh,NC,private_practice,4.2,False,Digital-Heavy
+274,Susan,Sanders,cardiology,low_value,TERR_07,Oklahoma City,OK,clinic,2.6,False,Mixed
+275,Jennifer,Jones,dermatology,medium_value,TERR_29,Oklahoma City,OK,private_practice,5.2,False,In-Person-Heavy
+276,Hannah,Burton,primary_care,high_value,TERR_44,Atlanta,GA,private_practice,1.5,False,Digital-Heavy
+277,Curtis,Barton,oncology,high_value,TERR_09,Chicago,IL,cancer_center,7.0,False,Digital-Heavy
+278,Melissa,Burke,dermatology,high_value,TERR_06,Memphis,TN,hospital,3.8,False,Digital-Heavy
+279,David,Riggs,dermatology,high_value,TERR_15,Oakland,CA,hospital,4.7,False,Mixed
+280,Kimberly,Reed,endocrinology,medium_value,TERR_06,Tulsa,OK,clinic,0.5,False,Digital-Heavy
+281,Ross,Wood,oncology,medium_value,TERR_16,Wichita,KS,cancer_center,2.4,False,Mixed
+282,William,Peterson,dermatology,medium_value,TERR_11,Charlotte,NC,hospital,4.7,False,In-Person-Heavy
+283,Melissa,Short,endocrinology,high_value,TERR_48,Tulsa,OK,hospital,2.7,False,Digital-Heavy
+284,Daniel,Yu,cardiology,low_value,TERR_08,San Francisco,CA,clinic,1.4,False,Mixed
+285,Cynthia,Poole,oncology,high_value,TERR_25,Baltimore,MD,cancer_center,0.7,False,In-Person-Heavy
+286,Jasmine,Graham,cardiology,low_value,TERR_39,Fort Worth,TX,private_practice,0.5,False,Mixed
+287,Jessica,Sheppard,primary_care,low_value,TERR_07,New York,NY,private_practice,2.8,False,Mixed
+288,Joseph,Morton,endocrinology,medium_value,TERR_13,El Paso,TX,private_practice,3.6,False,Digital-Heavy
+289,Amanda,Webb,dermatology,medium_value,TERR_42,San Diego,CA,hospital,3.5,False,Digital-Heavy
+290,Ryan,Simon,primary_care,low_value,TERR_50,Detroit,MI,private_practice,0.5,False,Mixed
+291,Joseph,Christian,cardiology,low_value,TERR_10,Tucson,AZ,clinic,3.7,False,Digital-Heavy
+292,Mariah,Miller,oncology,low_value,TERR_44,Fresno,CA,hospital,3.8,False,Digital-Heavy
+293,Nicole,Sanchez,primary_care,medium_value,TERR_28,San Antonio,TX,private_practice,4.6,False,Digital-Heavy
+294,Steven,Bishop,cardiology,low_value,TERR_25,Los Angeles,CA,private_practice,2.6,False,Digital-Heavy
+295,Nicholas,Johnson,cardiology,high_value,TERR_41,Arlington,TX,hospital,0.5,False,Mixed
+296,Melissa,White,cardiology,low_value,TERR_19,Houston,TX,clinic,0.6,False,Digital-Heavy
+297,Jason,Salinas,oncology,low_value,TERR_37,Tucson,AZ,hospital,0.6,False,In-Person-Heavy
+298,Matthew,Beard,endocrinology,medium_value,TERR_06,Raleigh,NC,private_practice,4.1,False,In-Person-Heavy
+299,Jacqueline,Hill,endocrinology,medium_value,TERR_32,Boston,MA,private_practice,0.8,False,In-Person-Heavy
+300,Alejandro,Vaughan,oncology,high_value,TERR_03,El Paso,TX,cancer_center,3.1,False,Digital-Heavy
+301,Christopher,Cortez,oncology,medium_value,TERR_30,San Diego,CA,private_practice,5.3,False,Mixed
+302,Tracy,Chang,endocrinology,low_value,TERR_29,Milwaukee,WI,private_practice,1.5,False,Digital-Heavy
+303,Hannah,Brewer,primary_care,low_value,TERR_12,Indianapolis,IN,private_practice,4.7,False,Mixed
+304,Travis,Mcguire,endocrinology,medium_value,TERR_30,Minneapolis,MN,hospital,2.3,False,Mixed
+305,Christopher,Walker,endocrinology,high_value,TERR_01,Baltimore,MD,hospital,6.2,False,In-Person-Heavy
+306,Heather,Torres,dermatology,low_value,TERR_08,Colorado Springs,CO,private_practice,3.9,True,In-Person-Heavy
+307,Bonnie,Kennedy,primary_care,low_value,TERR_45,Los Angeles,CA,clinic,2.4,False,In-Person-Heavy
+308,Alyssa,Coleman,primary_care,high_value,TERR_09,New York,NY,private_practice,0.9,False,Digital-Heavy
+309,Julie,Rivera,cardiology,high_value,TERR_15,El Paso,TX,clinic,3.5,False,Mixed
+310,Jacqueline,Nelson,endocrinology,low_value,TERR_47,Arlington,TX,hospital,2.0,False,Mixed
+311,John,Martinez,oncology,medium_value,TERR_14,Philadelphia,PA,cancer_center,3.4,False,Digital-Heavy
+312,James,Wilson,cardiology,high_value,TERR_09,Charlotte,NC,hospital,5.8,False,In-Person-Heavy
+313,Amanda,Gill,dermatology,high_value,TERR_02,Oklahoma City,OK,private_practice,5.9,False,Mixed
+314,Jacob,Robinson,dermatology,medium_value,TERR_14,New York,NY,hospital,1.3,False,Mixed
+315,Todd,Hardy,dermatology,high_value,TERR_34,San Diego,CA,private_practice,1.6,False,In-Person-Heavy
+316,Tiffany,Warren,dermatology,high_value,TERR_04,Minneapolis,MN,private_practice,6.5,False,In-Person-Heavy
+317,Justin,Garcia,endocrinology,medium_value,TERR_20,Seattle,WA,clinic,5.8,False,Digital-Heavy
+318,James,Perez,dermatology,low_value,TERR_29,Miami,FL,private_practice,3.0,False,Mixed
+319,Harry,Smith,oncology,low_value,TERR_11,Cleveland,OH,cancer_center,3.1,True,Digital-Heavy
+320,Amanda,Hill,dermatology,medium_value,TERR_23,Denver,CO,clinic,2.7,False,In-Person-Heavy
+321,Terri,Tran,primary_care,medium_value,TERR_16,San Francisco,CA,private_practice,3.3,False,Digital-Heavy
+322,Heidi,Martinez,endocrinology,high_value,TERR_40,Indianapolis,IN,clinic,2.3,False,Digital-Heavy
+323,Miranda,Henry,dermatology,high_value,TERR_39,Cleveland,OH,clinic,3.5,False,In-Person-Heavy
+324,Monique,Andrews,dermatology,high_value,TERR_35,San Antonio,TX,hospital,6.2,False,Mixed
+325,Taylor,Alexander,cardiology,low_value,TERR_02,Las Vegas,NV,private_practice,1.9,False,Digital-Heavy
+326,Jack,Williams,dermatology,high_value,TERR_10,Nashville,TN,private_practice,3.9,False,In-Person-Heavy
+327,Shelley,Woods,oncology,high_value,TERR_45,Boston,MA,hospital,4.2,False,Digital-Heavy
+328,Lynn,Morales,dermatology,medium_value,TERR_36,Indianapolis,IN,hospital,0.8,False,Digital-Heavy
+329,Charles,Soto,cardiology,high_value,TERR_26,Houston,TX,private_practice,0.5,False,In-Person-Heavy
+330,Brian,Hernandez,oncology,medium_value,TERR_40,Sacramento,CA,hospital,1.2,False,In-Person-Heavy
+331,Anna,Torres,primary_care,high_value,TERR_49,Raleigh,NC,clinic,1.6,False,Digital-Heavy
+332,Victoria,Wilson,primary_care,medium_value,TERR_02,New Orleans,LA,clinic,1.1,False,Digital-Heavy
+333,Kathy,Obrien,dermatology,low_value,TERR_28,Austin,TX,private_practice,1.8,False,Digital-Heavy
+334,Krystal,Perez,oncology,high_value,TERR_49,Charlotte,NC,hospital,1.7,False,Digital-Heavy
+335,Alexandra,Hayes,primary_care,high_value,TERR_01,Nashville,TN,private_practice,3.5,False,Mixed
+336,Scott,Dalton,dermatology,low_value,TERR_23,Miami,FL,private_practice,3.1,False,Mixed
+337,Veronica,Torres,primary_care,medium_value,TERR_46,Kansas City,MO,private_practice,2.9,False,Digital-Heavy
+338,Christine,Lynch,cardiology,medium_value,TERR_28,Miami,FL,clinic,2.2,False,In-Person-Heavy
+339,Jody,Meza,oncology,high_value,TERR_38,Wichita,KS,hospital,1.6,False,Mixed
+340,Jared,Clark,endocrinology,high_value,TERR_40,Oklahoma City,OK,hospital,1.9,False,Digital-Heavy
+341,Donna,Moore,primary_care,high_value,TERR_14,Raleigh,NC,private_practice,3.2,False,Mixed
+342,Glenn,Jones,primary_care,high_value,TERR_50,San Jose,CA,hospital,1.4,False,Mixed
+343,Aaron,Hayes,dermatology,high_value,TERR_32,Milwaukee,WI,private_practice,2.7,False,Digital-Heavy
+344,Brittney,Carter,endocrinology,low_value,TERR_17,Virginia Beach,VA,private_practice,2.5,False,Digital-Heavy
+345,Jesse,Mann,oncology,medium_value,TERR_25,Cleveland,OH,hospital,0.5,False,Mixed
+346,Jacqueline,Gibson,endocrinology,medium_value,TERR_32,Tulsa,OK,private_practice,0.6,False,In-Person-Heavy
+347,Grace,Bradshaw,primary_care,low_value,TERR_49,Jacksonville,FL,clinic,3.3,False,Digital-Heavy
+348,Kristin,Weber,primary_care,low_value,TERR_21,San Diego,CA,private_practice,3.2,True,Digital-Heavy
+349,Donna,Peck,endocrinology,medium_value,TERR_28,Louisville,KY,private_practice,1.6,False,In-Person-Heavy
+350,Ronald,Stephens,dermatology,low_value,TERR_15,Las Vegas,NV,private_practice,6.3,False,In-Person-Heavy
+351,Deborah,Kerr,oncology,high_value,TERR_43,Mesa,AZ,hospital,3.5,False,Mixed
+352,Margaret,Jones,dermatology,medium_value,TERR_19,Nashville,TN,clinic,3.9,False,Mixed
+353,Gabriel,Parker,dermatology,medium_value,TERR_08,Omaha,NE,private_practice,2.5,False,Digital-Heavy
+354,Kaitlyn,Carroll,oncology,medium_value,TERR_05,Chicago,IL,hospital,4.3,False,In-Person-Heavy
+355,Keith,Martinez,primary_care,low_value,TERR_25,San Jose,CA,private_practice,5.2,False,In-Person-Heavy
+356,Haley,Lyons,dermatology,medium_value,TERR_27,Los Angeles,CA,clinic,4.0,False,In-Person-Heavy
+357,Sherri,Mason,primary_care,low_value,TERR_12,Indianapolis,IN,private_practice,4.6,False,Digital-Heavy
+358,Troy,Miller,primary_care,low_value,TERR_11,San Francisco,CA,hospital,2.9,False,Mixed
+359,Bill,Reynolds,cardiology,medium_value,TERR_47,Houston,TX,clinic,1.2,False,Mixed
+360,Marcus,Wright,endocrinology,high_value,TERR_26,Mesa,AZ,clinic,2.8,False,In-Person-Heavy
+361,Christopher,Hayden,dermatology,high_value,TERR_17,San Antonio,TX,private_practice,3.7,False,In-Person-Heavy
+362,Mary,Johnston,endocrinology,high_value,TERR_37,San Francisco,CA,clinic,0.5,False,Digital-Heavy
+363,Stephanie,Key,oncology,high_value,TERR_18,Denver,CO,cancer_center,5.2,False,In-Person-Heavy
+364,Emily,Adams,endocrinology,high_value,TERR_46,Denver,CO,hospital,4.2,False,In-Person-Heavy
+365,Billy,Avila,dermatology,high_value,TERR_19,New Orleans,LA,clinic,1.6,False,In-Person-Heavy
+366,Thomas,Pearson,dermatology,low_value,TERR_33,Seattle,WA,private_practice,2.1,False,Mixed
+367,Sabrina,White,endocrinology,high_value,TERR_45,Tucson,AZ,private_practice,1.8,False,In-Person-Heavy
+368,Brenda,Walters,primary_care,medium_value,TERR_47,Las Vegas,NV,clinic,4.1,False,Digital-Heavy
+369,Travis,Davis,endocrinology,high_value,TERR_10,Cleveland,OH,private_practice,0.9,False,Mixed
+370,Michael,Cook,cardiology,low_value,TERR_45,Philadelphia,PA,private_practice,5.2,False,Digital-Heavy
+371,Elizabeth,Hodge,primary_care,medium_value,TERR_37,Washington,DC,hospital,0.7,False,Digital-Heavy
+372,Mark,Steele,primary_care,high_value,TERR_36,Philadelphia,PA,private_practice,0.5,False,Digital-Heavy
+373,Keith,Landry,oncology,medium_value,TERR_36,Philadelphia,PA,hospital,0.5,False,In-Person-Heavy
+374,Lisa,Pierce,primary_care,high_value,TERR_31,Washington,DC,private_practice,2.6,False,Mixed
+375,Shawn,Edwards,primary_care,medium_value,TERR_28,San Antonio,TX,hospital,4.3,False,In-Person-Heavy
+376,Marcus,Cordova,cardiology,low_value,TERR_10,San Francisco,CA,private_practice,1.0,False,Mixed
+377,Richard,Robertson,oncology,high_value,TERR_43,Washington,DC,private_practice,3.1,False,In-Person-Heavy
+378,Vanessa,Sandoval,oncology,low_value,TERR_04,Cleveland,OH,private_practice,4.2,True,Digital-Heavy
+379,Amy,Gutierrez,primary_care,high_value,TERR_11,Washington,DC,clinic,6.1,False,Mixed
+380,Jacob,Cox,dermatology,low_value,TERR_14,Mesa,AZ,private_practice,1.5,False,Digital-Heavy
+381,Katherine,Garrett,oncology,low_value,TERR_49,Denver,CO,private_practice,2.8,True,Digital-Heavy
+382,Kathleen,Harris,cardiology,medium_value,TERR_41,Tucson,AZ,clinic,3.7,False,In-Person-Heavy
+383,Andrea,Pennington,oncology,low_value,TERR_33,Indianapolis,IN,cancer_center,3.2,False,Digital-Heavy
+384,Samuel,Wolfe,dermatology,high_value,TERR_43,Raleigh,NC,private_practice,1.9,False,Digital-Heavy
+385,David,Dudley,primary_care,medium_value,TERR_21,Phoenix,AZ,private_practice,2.4,False,In-Person-Heavy
+386,Chelsea,Allen,oncology,low_value,TERR_10,Fresno,CA,cancer_center,0.5,True,In-Person-Heavy
+387,Eric,Pierce,cardiology,high_value,TERR_10,Sacramento,CA,hospital,2.8,False,In-Person-Heavy
+388,Andrea,Davis,cardiology,high_value,TERR_07,Boston,MA,hospital,1.7,False,Mixed
+389,Victoria,Durham,endocrinology,high_value,TERR_28,Columbus,OH,clinic,1.5,False,In-Person-Heavy
+390,Steven,Wilson,cardiology,low_value,TERR_28,Portland,OR,clinic,1.5,False,Mixed
+391,Marilyn,Jimenez,primary_care,medium_value,TERR_33,Omaha,NE,private_practice,6.3,False,Digital-Heavy
+392,Jennifer,Hicks,endocrinology,medium_value,TERR_23,Oklahoma City,OK,clinic,2.7,False,In-Person-Heavy
+393,Joshua,Davenport,cardiology,low_value,TERR_28,Raleigh,NC,private_practice,0.5,False,Mixed
+394,Tina,Sanchez,endocrinology,high_value,TERR_09,Wichita,KS,private_practice,3.1,False,In-Person-Heavy
+395,Andrea,Reyes,oncology,high_value,TERR_03,Minneapolis,MN,hospital,1.8,False,Mixed
+396,Sandra,Romero,cardiology,medium_value,TERR_38,Tucson,AZ,clinic,6.6,False,Digital-Heavy
+397,Natasha,Shields,endocrinology,low_value,TERR_43,Mesa,AZ,private_practice,5.1,False,Digital-Heavy
+398,Joshua,Tyler,endocrinology,high_value,TERR_19,Albuquerque,NM,clinic,1.8,False,In-Person-Heavy
+399,Robert,Villa,primary_care,low_value,TERR_21,Baltimore,MD,clinic,2.7,False,Digital-Heavy
+400,William,Hoover,dermatology,medium_value,TERR_31,Las Vegas,NV,private_practice,1.6,False,Mixed
+401,Justin,Evans,dermatology,medium_value,TERR_05,Sacramento,CA,clinic,3.7,True,Digital-Heavy
+402,Brenda,Duarte,dermatology,medium_value,TERR_38,Cleveland,OH,private_practice,3.3,False,Mixed
+403,Tracy,Hernandez,cardiology,medium_value,TERR_09,Boston,MA,hospital,1.4,False,Mixed
+404,Amanda,Reed,oncology,high_value,TERR_30,Portland,OR,private_practice,1.8,False,Digital-Heavy
+405,Andrea,Daniels,dermatology,low_value,TERR_34,Raleigh,NC,private_practice,3.3,False,Digital-Heavy
+406,Stanley,Morris,cardiology,high_value,TERR_23,New Orleans,LA,private_practice,2.5,False,Mixed
+407,Jacob,Terry,primary_care,medium_value,TERR_20,San Francisco,CA,clinic,2.9,False,Mixed
+408,Ashley,Hall,oncology,medium_value,TERR_28,Wichita,KS,hospital,3.0,False,In-Person-Heavy
+409,Kimberly,Williams,primary_care,high_value,TERR_47,Atlanta,GA,clinic,1.9,False,Digital-Heavy
+410,Julie,Thornton,dermatology,low_value,TERR_46,Columbus,OH,private_practice,2.2,False,In-Person-Heavy
+411,Lisa,Hughes,endocrinology,low_value,TERR_18,Tucson,AZ,hospital,1.7,False,In-Person-Heavy
+412,Elizabeth,Hoover,cardiology,low_value,TERR_34,Tulsa,OK,private_practice,6.7,False,Digital-Heavy
+413,Tina,Simpson,endocrinology,low_value,TERR_20,Arlington,TX,private_practice,7.1,False,Mixed
+414,Benjamin,Shaw,primary_care,medium_value,TERR_38,Nashville,TN,private_practice,3.7,False,Digital-Heavy
+415,Brittany,Kane,primary_care,medium_value,TERR_20,Minneapolis,MN,private_practice,1.8,False,Digital-Heavy
+416,Morgan,Alexander,primary_care,medium_value,TERR_19,Wichita,KS,private_practice,1.7,False,Digital-Heavy
+417,Alicia,Bryant,endocrinology,high_value,TERR_30,Dallas,TX,private_practice,0.5,False,Digital-Heavy
+418,Jennifer,Ortiz,primary_care,low_value,TERR_11,Sacramento,CA,private_practice,2.9,False,Digital-Heavy
+419,Diana,Moore,primary_care,high_value,TERR_46,El Paso,TX,private_practice,1.5,False,In-Person-Heavy
+420,Terrance,Costa,primary_care,low_value,TERR_16,Louisville,KY,hospital,4.1,False,Digital-Heavy
+421,Matthew,Schwartz,primary_care,high_value,TERR_21,Boston,MA,private_practice,4.1,False,Digital-Heavy
+422,Debra,Christian,dermatology,high_value,TERR_44,Tucson,AZ,private_practice,1.8,False,Digital-Heavy
+423,Melissa,Villarreal,dermatology,medium_value,TERR_24,Albuquerque,NM,private_practice,2.0,False,Mixed
+424,Norman,Stewart,primary_care,medium_value,TERR_40,Jacksonville,FL,private_practice,3.6,False,In-Person-Heavy
+425,Jennifer,Malone,endocrinology,low_value,TERR_22,Virginia Beach,VA,private_practice,2.5,False,In-Person-Heavy
+426,Monique,Johnson,dermatology,high_value,TERR_29,Houston,TX,clinic,2.1,False,In-Person-Heavy
+427,Casey,Welch,endocrinology,high_value,TERR_02,Detroit,MI,private_practice,6.1,False,Mixed
+428,Samantha,Bright,oncology,high_value,TERR_08,Nashville,TN,hospital,1.1,False,Digital-Heavy
+429,Julie,Hamilton,primary_care,high_value,TERR_19,Omaha,NE,private_practice,6.1,False,In-Person-Heavy
+430,Corey,Schultz,primary_care,low_value,TERR_35,Virginia Beach,VA,private_practice,3.1,False,Mixed
+431,Monique,Wallace,cardiology,low_value,TERR_49,Tulsa,OK,private_practice,4.2,False,In-Person-Heavy
+432,Heather,Berger,primary_care,medium_value,TERR_33,Portland,OR,private_practice,9.2,False,Digital-Heavy
+433,Brandon,Flynn,dermatology,low_value,TERR_41,Dallas,TX,private_practice,2.0,False,In-Person-Heavy
+434,Kelly,Brooks,dermatology,low_value,TERR_21,Colorado Springs,CO,private_practice,1.1,False,Digital-Heavy
+435,Dustin,Schmidt,primary_care,high_value,TERR_46,Minneapolis,MN,private_practice,2.7,False,In-Person-Heavy
+436,Ashlee,Sparks,primary_care,medium_value,TERR_08,San Diego,CA,private_practice,0.7,False,Mixed
+437,George,Miller,dermatology,medium_value,TERR_39,Memphis,TN,clinic,4.2,False,Digital-Heavy
+438,Monica,Harvey,oncology,low_value,TERR_46,Nashville,TN,cancer_center,0.8,False,Mixed
+439,John,Durham,dermatology,medium_value,TERR_04,Baltimore,MD,hospital,3.7,False,Digital-Heavy
+440,Douglas,Murray,primary_care,low_value,TERR_19,Wichita,KS,private_practice,3.7,False,Mixed
+441,Jonathan,Scott,endocrinology,high_value,TERR_41,Colorado Springs,CO,clinic,0.5,False,In-Person-Heavy
+442,Albert,Ballard,oncology,medium_value,TERR_02,Austin,TX,cancer_center,1.5,False,Digital-Heavy
+443,Rachel,Byrd,dermatology,low_value,TERR_28,Chicago,IL,private_practice,3.1,False,Digital-Heavy
+444,Eric,Alexander,endocrinology,medium_value,TERR_29,Atlanta,GA,clinic,1.8,False,Mixed
+445,Michael,Matthews,cardiology,low_value,TERR_35,Miami,FL,hospital,4.4,False,Digital-Heavy
+446,Danielle,Coleman,primary_care,high_value,TERR_37,Boston,MA,private_practice,2.5,False,Digital-Heavy
+447,John,Bruce,primary_care,high_value,TERR_36,Sacramento,CA,private_practice,4.4,False,Digital-Heavy
+448,James,Cruz,dermatology,low_value,TERR_30,Oakland,CA,private_practice,2.3,False,In-Person-Heavy
+449,Timothy,Young,oncology,low_value,TERR_23,Virginia Beach,VA,hospital,5.0,False,In-Person-Heavy
+450,Ashley,Andrews,cardiology,medium_value,TERR_36,Tucson,AZ,hospital,3.5,False,Digital-Heavy
+451,Victoria,Phillips,oncology,low_value,TERR_29,San Jose,CA,hospital,1.4,False,Digital-Heavy
+452,Tiffany,Barrett,endocrinology,high_value,TERR_47,Milwaukee,WI,private_practice,3.6,False,Digital-Heavy
+453,Joshua,Knight,cardiology,high_value,TERR_34,New Orleans,LA,private_practice,4.2,False,Digital-Heavy
+454,Gina,Garner,endocrinology,medium_value,TERR_31,Houston,TX,clinic,5.2,False,In-Person-Heavy
+455,Brandon,Obrien,primary_care,low_value,TERR_11,Minneapolis,MN,private_practice,2.8,False,Mixed
+456,Tyler,Strong,endocrinology,high_value,TERR_43,Las Vegas,NV,private_practice,2.1,False,Digital-Heavy
+457,Justin,Lindsey,oncology,high_value,TERR_42,Mesa,AZ,hospital,2.7,False,Digital-Heavy
+458,Catherine,Gomez,oncology,low_value,TERR_37,Sacramento,CA,hospital,0.5,False,Digital-Heavy
+459,Dana,Oliver,endocrinology,high_value,TERR_17,Minneapolis,MN,hospital,3.1,False,Mixed
+460,Erica,Le,endocrinology,medium_value,TERR_13,Fresno,CA,hospital,1.6,False,Mixed
+461,Donna,Massey,dermatology,medium_value,TERR_32,Minneapolis,MN,clinic,0.5,False,Mixed
+462,Courtney,Berger,cardiology,low_value,TERR_44,Boston,MA,private_practice,2.0,False,Digital-Heavy
+463,Debbie,Parker,endocrinology,low_value,TERR_35,Fort Worth,TX,hospital,3.2,False,Digital-Heavy
+464,Scott,Riley,oncology,high_value,TERR_17,Sacramento,CA,hospital,1.0,False,Digital-Heavy
+465,Jessica,Davis,endocrinology,medium_value,TERR_39,Boston,MA,private_practice,2.5,False,Digital-Heavy
+466,Kenneth,Burgess,endocrinology,medium_value,TERR_19,Las Vegas,NV,hospital,2.4,False,In-Person-Heavy
+467,Gregory,Anderson,dermatology,high_value,TERR_11,Colorado Springs,CO,clinic,2.0,False,Mixed
+468,Amber,Mata,endocrinology,medium_value,TERR_41,Tulsa,OK,private_practice,2.7,False,Mixed
+469,Alyssa,Mcintyre,oncology,medium_value,TERR_44,Albuquerque,NM,private_practice,5.3,False,Mixed
+470,Maria,Scott,oncology,low_value,TERR_24,Nashville,TN,hospital,2.8,False,Digital-Heavy
+471,Makayla,Olson,cardiology,low_value,TERR_14,Las Vegas,NV,hospital,4.4,False,In-Person-Heavy
+472,Lindsay,Francis,oncology,low_value,TERR_47,Houston,TX,hospital,3.1,True,Digital-Heavy
+473,Matthew,Wilson,dermatology,low_value,TERR_08,Denver,CO,private_practice,0.5,True,Digital-Heavy
+474,Sydney,Taylor,cardiology,high_value,TERR_46,Milwaukee,WI,private_practice,4.2,False,Mixed
+475,Tammy,Dalton,oncology,high_value,TERR_42,Boston,MA,hospital,4.2,False,Digital-Heavy
+476,Jennifer,Whitney,endocrinology,high_value,TERR_30,Baltimore,MD,hospital,4.5,False,In-Person-Heavy
+477,Tammy,Ballard,cardiology,high_value,TERR_07,Chicago,IL,clinic,2.0,False,Digital-Heavy
+478,Michael,Gibbs,primary_care,high_value,TERR_15,Mesa,AZ,private_practice,4.1,False,In-Person-Heavy
+479,Alexander,Herrera,dermatology,medium_value,TERR_36,Sacramento,CA,clinic,2.2,False,Mixed
+480,Shawn,Chambers,oncology,high_value,TERR_34,Tulsa,OK,hospital,3.9,False,Digital-Heavy
+481,Emily,Richards,endocrinology,high_value,TERR_13,Minneapolis,MN,private_practice,2.9,False,Mixed
+482,Lynn,Bentley,oncology,low_value,TERR_38,San Francisco,CA,hospital,3.9,False,Digital-Heavy
+483,Daniel,Hall,oncology,low_value,TERR_02,Los Angeles,CA,hospital,3.8,False,In-Person-Heavy
+484,Angel,Henson,oncology,medium_value,TERR_34,Colorado Springs,CO,hospital,4.2,False,Mixed
+485,Anna,Herman,cardiology,low_value,TERR_29,Colorado Springs,CO,clinic,1.9,False,In-Person-Heavy
+486,Jeffrey,Brown,dermatology,low_value,TERR_30,Fort Worth,TX,hospital,2.5,False,Mixed
+487,Madison,Blankenship,dermatology,low_value,TERR_23,Albuquerque,NM,private_practice,1.7,False,Digital-Heavy
+488,Kevin,Ortiz,oncology,medium_value,TERR_20,Albuquerque,NM,cancer_center,3.7,True,In-Person-Heavy
+489,Donald,Shah,oncology,high_value,TERR_22,Baltimore,MD,hospital,1.6,False,In-Person-Heavy
+490,Kevin,Vasquez,endocrinology,high_value,TERR_18,Jacksonville,FL,private_practice,1.6,False,Mixed
+491,Colton,Clay,oncology,low_value,TERR_32,El Paso,TX,hospital,1.9,False,Digital-Heavy
+492,Derek,Chavez,primary_care,high_value,TERR_41,Philadelphia,PA,private_practice,1.2,False,Mixed
+493,Ellen,Paul,dermatology,high_value,TERR_34,Oakland,CA,hospital,4.9,False,In-Person-Heavy
+494,Sonya,Barnes,endocrinology,low_value,TERR_13,Denver,CO,clinic,0.5,False,Digital-Heavy
+495,Julia,Moore,primary_care,high_value,TERR_23,Portland,OR,private_practice,0.6,False,In-Person-Heavy
+496,Robert,Garcia,dermatology,medium_value,TERR_10,Wichita,KS,private_practice,3.3,False,Digital-Heavy
+497,Tracy,Russell,dermatology,low_value,TERR_30,Dallas,TX,clinic,2.9,False,In-Person-Heavy
+498,Stephanie,Johnson,dermatology,low_value,TERR_37,Omaha,NE,private_practice,3.1,False,Mixed
+499,Mitchell,Ramos,primary_care,medium_value,TERR_47,New Orleans,LA,private_practice,0.5,False,In-Person-Heavy
+500,Stephanie,Foley,oncology,medium_value,TERR_41,San Antonio,TX,cancer_center,1.2,False,In-Person-Heavy

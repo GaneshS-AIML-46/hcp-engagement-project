@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg-main: #F4F8FC;
+  --bg-gradient: #F4F8FC;
+  --surface: #FFFFFF;
+  --surface-border: #DCE5EF;
+  --bg-card: #FFFFFF;
+
+  --primary: #0F9D8A;
+  --primary-glow: rgba(15, 157, 138, 0.2);
+  --secondary: #2563EB;
+  --accent: #0891B2;
+
+  --success: #16A34A;
+  --success-light: rgba(22, 163, 74, 0.08);
+  --warning: #D97706;
+  --warning-light: rgba(217, 119, 6, 0.08);
+  --danger: #DC2626;
+  --danger-light: rgba(220, 38, 38, 0.08);
+  --purple: #0891B2;
+  --purple-light: rgba(8, 145, 178, 0.08);
+  --info: #2563EB;
+  --info-light: rgba(37, 99, 235, 0.08);
+
+  --text-main: #172033;
+  --text-muted: #64748B;
+  --border-color: #DCE5EF;
+
+  --user-bubble: linear-gradient(135deg, #0F9D8A, #0891B2);
+  --bot-bubble: #F1F5F9;
+
+  --primary-light: rgba(15, 157, 138, 0.1);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+  background: var(--bg-main);
+  color: var(--text-main);
+  min-height: 100vh;
+}
+
+.glass-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--surface-border);
+  border-radius: 14px;
+  box-shadow: 0 4px 16px rgba(23, 32, 51, 0.04);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.glass-panel:hover {
+  border-color: #0F9D8A;
+  box-shadow: 0 6px 20px rgba(15, 157, 138, 0.08);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
