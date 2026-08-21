@@ -29,5 +29,7 @@
         "env.bak{,/**}",
         "venv.bak{,/**}",
         ".vscode{,/**}"
-    ]
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/8b5471cd-2fff-43cb-aa18-a531b3a27926/resourceGroups/hcp-student-rg/providers/Microsoft.Web/sites/hcp-engagement-backend",
+    "appService.deploySubpath": "."
 }

@@ -171,12 +171,17 @@ class ChatRequest(BaseModel):
 @app.get("/")
 def root():
     return {
+        "status": "Backend is working",
         "service": "AgentKF Omnichannel Scoring API",
-        "status": "running",
         "scoring_model": "Dynamic Shannon Entropy (No Arbitrary Weights)",
         "ml_model_loaded": ml_model is not None,
         "total_hcps": len(entropy_df),
     }
+
+
+@app.get("/health")
+def health_check():
+    return {"status": "healthy"}
 
 
 @app.get("/api/agent/health")

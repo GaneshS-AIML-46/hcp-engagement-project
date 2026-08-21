@@ -8,6 +8,14 @@ import {
   BookOpen, HelpCircle, Mail, Phone, User, Video, Search,
   Menu, Trophy, PieChart as PieIcon, Users, UserCheck, UserX, ChevronRight
 } from 'lucide-react';
+import { 
+  loadEntropyScores, 
+  loadMLRecommendations, 
+  getHcpStatsFromCSV, 
+  getAllHcpsFromCSV, 
+  getHcpByIdFromCSV, 
+  generateChatbotResponse 
+} from './utils/csvLoader';
 import './App.css';
 
 const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8080";
@@ -36,6 +44,10 @@ function App() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
+  // CSV State
+  const [csvEntropyData, setCsvEntropyData] = useState([]);
+  const [csvMlData, setCsvMlData] = useState([]);
+
   // Drawer state
   const [menuOpen, setMenuOpen] = useState(false);
   const [menuTab, setMenuTab] = useState('rankings'); // 'rankings' | 'overview'
@@ -51,8 +63,34 @@ function App() {
   const chatEndRef = useRef(null);
 
   useEffect(() => {
-    fetchStats();
-    fetchAllHcps();
+    async function initData() {
+      // Fetch and log raw static CSV datasets
+      fetch("/hcp_entropy_scores.csv")
+        .then(response => response.text())
+        .then(data => {
+          console.log("hcp_entropy_scores.csv content:", data);
+        })
+        .catch(err => console.error("Error fetching entropy scores CSV:", err));
+
+      fetch("/hcp_ml_recommendations.csv")
+        .then(response => response.text())
+        .then(data => {
+          console.log("hcp_ml_recommendations.csv content:", data);
+        })
+        .catch(err => console.error("Error fetching ML recommendations CSV:", err));
+
+      // Parse datasets into state for UI rendering
+      const [entropyRows, mlRows] = await Promise.all([
+        loadEntropyScores(),
+        loadMLRecommendations()
+      ]);
+      setCsvEntropyData(entropyRows);
+      setCsvMlData(mlRows);
+
+      fetchStats(entropyRows);
+      fetchAllHcps(entropyRows);
+    }
+    initData();
   }, []);
 
   useEffect(() => {
@@ -61,30 +99,39 @@ function App() {
     }
   }, [messages, isTyping]);
 
-  const fetchStats = async () => {
+  const fetchStats = async (csvRows = csvEntropyData) => {
     try {
       const res = await fetch(`${API_URL}/api/stats`);
-      if (res.ok) setStats(await res.json());
+      if (res.ok) {
+        setStats(await res.json());
+        return;
+      }
     } catch (err) {
-      console.error("Failed to fetch stats", err);
+      console.log("Backend API stats unavailable. Using client-side CSV loader.");
+    }
+    if (csvRows && csvRows.length > 0) {
+      setStats(getHcpStatsFromCSV(csvRows));
     }
   };
 
-  const fetchAllHcps = async () => {
+  const fetchAllHcps = async (csvRows = csvEntropyData) => {
     try {
       const res = await fetch(`${API_URL}/api/hcps`);
       if (res.ok) {
         const data = await res.json();
-        // Sort by engagement score descending
         data.sort((a, b) => b.overall_engagement_score_100 - a.overall_engagement_score_100);
         setAllHcps(data);
+        return;
       }
     } catch (err) {
-      console.error("Failed to fetch HCP list", err);
+      console.log("Backend API hcps unavailable. Using client-side CSV loader.");
+    }
+    if (csvRows && csvRows.length > 0) {
+      setAllHcps(getAllHcpsFromCSV(csvRows));
     }
   };
 
-  const fetchHcpById = async (id) => {
+  const fetchHcpById = async (id, csvRows = csvEntropyData, mlRows = csvMlData) => {
     setLoading(true);
     setError('');
     setHcpData(null);
@@ -94,25 +141,35 @@ function App() {
       if (res.ok) {
         setHcpData(await res.json());
         setSearchInput(id);
-      } else {
-        const errData = await res.json();
-        setError(errData.detail || `HCP ID "${id}" not found. Please try another.`);
+        setLoading(false);
+        return;
       }
     } catch (err) {
-      setError('Failed to connect to the backend server. Please ensure it is running on port 8080.');
-    } finally {
-      setLoading(false);
+      console.log(`Backend API hcp/${id} unavailable. Fetching from client CSV data.`);
     }
+
+    if (csvRows && csvRows.length > 0) {
+      const parsedHcp = getHcpByIdFromCSV(csvRows, mlRows, id);
+      if (parsedHcp) {
+        setHcpData(parsedHcp);
+        setSearchInput(id);
+      } else {
+        setError(`HCP ID "${id}" not found in dataset. Try IDs 1 to 500.`);
+      }
+    } else {
+      setError('Dataset is loading or unavailable. Please verify CSV files in public folder.');
+    }
+    setLoading(false);
   };
 
   const handleSearch = (e) => {
     e.preventDefault();
     const id = searchInput.trim();
-    if (id) fetchHcpById(id);
+    if (id) fetchHcpById(id, csvEntropyData, csvMlData);
   };
 
   const handleSelectHcpFromMenu = (id) => {
-    fetchHcpById(id);
+    fetchHcpById(id, csvEntropyData, csvMlData);
     setMenuOpen(false);
   };
 
@@ -131,13 +188,21 @@ function App() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: userMessage })
       });
-      const data = await res.json();
-      setMessages(prev => [...prev, { text: data.response, sender: "bot" }]);
+      if (res.ok) {
+        const data = await res.json();
+        setMessages(prev => [...prev, { text: data.response, sender: "bot" }]);
+        setIsTyping(false);
+        return;
+      }
     } catch {
-      setMessages(prev => [...prev, { text: "❌ Connection error. Is the backend running?", sender: "bot" }]);
-    } finally {
-      setIsTyping(false);
+      console.log("Backend chat unavailable. Using client-side AI response generator.");
     }
+
+    setTimeout(() => {
+      const botReply = generateChatbotResponse(userMessage, hcpData, allHcps);
+      setMessages(prev => [...prev, { text: botReply, sender: "bot" }]);
+      setIsTyping(false);
+    }, 400);
   };
 
   const getEngagementLevel = (score) => {
